@@ -1,0 +1,46 @@
+div#Dashboard {
+    width: 100%;
+    max-width: 450px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+}
+
+div#Dashboard h1{
+    text-align: center;
+}
+
+form#Dashboard p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+div#Dashboard button{
+    padding:10px 20px;
+    border-radius: 4px;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+a#newpost {
+    width: 50%;
+    text-align: center;
+    padding:10px 20px;
+    border-radius: 4px;
+    background: #25282a;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+}
