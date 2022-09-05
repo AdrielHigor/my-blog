@@ -1,5 +1,5 @@
 import React from "react";
-import Dashboard from "../../components/Dashboard";
+import Dashboard from "../../../components/Dashboard";
 import Adapter from 'enzyme-adapter-react-16';
 import { shallow, configure } from "enzyme";
 import { Link } from "react-router-dom";

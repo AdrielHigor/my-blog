@@ -1,5 +1,5 @@
 import React from "react";
-import Post from "../../components/Post";
+import Post from "../../../components/Post";
 import Adapter from 'enzyme-adapter-react-16';
 import { shallow, configure } from "enzyme";
 
