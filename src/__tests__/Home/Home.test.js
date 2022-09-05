@@ -1,16 +1,13 @@
 import React from "react";
-import Home from "../../../components/Home";
-import Adapter from 'enzyme-adapter-react-16';
-import { shallow, configure } from "enzyme";
+import Home from "../../components/Home";
+import { shallow } from "enzyme";
 import { Link } from "react-router-dom";
-
-configure({ adapter: new Adapter() });
-
+import "../../setupTests";
 
 describe("Home Test Suite", () => {
     let component
 
-    jest.mock('../../../firebase', () => {
+    jest.mock('../../firebase', () => {
         return {
             app: {
                 ref: jest.fn(() => ({

@@ -1,10 +1,8 @@
 import React from "react";
-import Dashboard from "../../../components/Dashboard";
-import Adapter from 'enzyme-adapter-react-16';
-import { shallow, configure } from "enzyme";
+import Dashboard from "../../components/Dashboard";
+import { shallow } from "enzyme";
 import { Link } from "react-router-dom";
-
-configure({ adapter: new Adapter() });
+import "../../setupTests";
 
 describe("Dashboard Test Suite", () => {
     test("Dashboard rendering correctly", () => {

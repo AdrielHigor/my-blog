@@ -1,9 +1,7 @@
 import React from "react";
-import Post from "../../../components/Post";
-import Adapter from 'enzyme-adapter-react-16';
-import { shallow, configure } from "enzyme";
-
-configure({ adapter: new Adapter() });
+import Post from "../../components/Post";
+import { shallow } from "enzyme";
+import "../../setupTests";
 
 jest.mock('react-router-dom', () => ({
     ...jest.requireActual('react-router-dom'), // use actual for all non-hook parts

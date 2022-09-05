@@ -1,9 +1,7 @@
 import React from "react";
-import Login from "../../../components/Login";
-import Adapter from 'enzyme-adapter-react-16';
-import { shallow, configure } from "enzyme";
-
-configure({ adapter: new Adapter() });
+import Login from "../../components/Login";
+import { shallow } from "enzyme";
+import "../../setupTests";
 
 describe("Login Test Suite", () => {
     test("Login rendering correctly", () => {

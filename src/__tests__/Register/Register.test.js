@@ -1,9 +1,7 @@
 import React from "react";
-import Register from "../../../components/Register";
-import Adapter from 'enzyme-adapter-react-16';
-import { shallow, configure } from "enzyme";
-
-configure({ adapter: new Adapter() });
+import Register from "../../components/Register";
+import { shallow } from "enzyme";
+import "../../setupTests";
 
 describe("Register Test Suite", () => {
     test("Register rendering correctly", () => {
