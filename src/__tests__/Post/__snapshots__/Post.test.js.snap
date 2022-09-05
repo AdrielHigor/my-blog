@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post rendering correctly 1`] = `"<div style=\\"background:#eeeeee\\"><button id=\\"change-theme\\">Darkmode</button><div id=\\"post\\"><div id=\\"title\\"><strong id=\\"post-title\\"></strong><span id=\\"post-author\\">Autor: </span></div><img id=\\"post-image\\" alt=\\"\\"/><div id=\\"post-content\\"><p></p></div><div id=\\"rating\\"><div id=\\"like\\"><img src=\\"https://img.icons8.com/ios/50/000000/thumb-up.png\\"/><span>0</span></div><div id=\\"dislike\\"><img src=\\"https://img.icons8.com/ios/50/000000/thumbs-down.png\\"/></div></div></div></div>"`;

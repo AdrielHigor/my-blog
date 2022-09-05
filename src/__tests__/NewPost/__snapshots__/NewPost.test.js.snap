@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPost Test Suite NewPost rendering correctly 1`] = `ShallowWrapper {}`;
+
+exports[`NewPost rendering correctly 1`] = `ShallowWrapper {}`;
